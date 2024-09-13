@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vincent Castillo - Resume</title>
+    <style>
+        body {
+            background-image: url('background2.jpg');
+            background-size: cover;
+            background-position: center;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: #444;
+            margin: 10px 0;
+            text-align: center; /* Center text */
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            border-radius: 50%;
+            /* Add circular highlighting background */
+            border: 5px solid #007bff; /* Adjust border size and color */
+            box-shadow: 0 0 10px #007bff; /* Adjust shadow size and color */
+        }
+
+        .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.box {
+    background-color: #ADD8E6;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: calc(50% - 20px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .button {
+            font-size: 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: left;
+            display: flex; /* Use flexbox for the list */
+            justify-content: center; /* Center the items horizontally */
+            flex-wrap: wrap; /* Allow items to wrap to the next line */
+        }
+
+        ul li {
+            margin-bottom: 10px;
+            margin-right: 10px; /* Add spacing between items */
+        }
+
+        form {
+            text-align: center; /* Center form elements */
+        }
+
+        .logo {
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>Hey there, I'm</h1>
+            <h2><b>Vincent Castillo</b></h2>
+            <img src="mamamo1.jpg" alt="Avatar" width="150" height="160">
+
+            <h3>Bachelor of Science in Information Technology</h3>
+            <h3>Specializing in Web and Mobile</h3>
+        </div>
+        <div class="advertisement"></div> <!-- Advertisement -->
+        <div class="box">
+            <h2>Find Me Online</h2>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/vin.cas/">
+                        <span class="logo">F</span> Facebook
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/vin.cas/">
+                        <span class="logo">I</span> Instagram
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:castillovincent@gmail.com">
+                        <span class="logo">@</span> Email
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="box">
+            <h2>About Me</h2>
+            <p>Hey! I'm Vince, a passionate UI Designer with a love for crafting sleek and efficient applications. I thrive on challenges and believe in the power of continuous learning. With a solid foundation in computer science and hands-on experience in developing Android, iOS, and Windows applications, I bring innovation and creativity to every project I work on.</p>
+        </div>
+        <div class="box">
+            <h2>My Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>Java</li>
+                <li>C</li>
+                <li>Dart</li>
+            </ul>
+        </div>
+        <div class="box">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone" required><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>
